@@ -29,6 +29,9 @@
  <room>
    <name>Hangar Principal</name>
    <description>Você está no meio do hangar principal da Estrela da Morte. Há uma porta trancada ao norte. Você vê um baú no meio da sala.</description>
+   <item>
+    <name>chave</name>
+   </item>
    <container>
      <name>baú</name>
      <item>
@@ -84,9 +87,7 @@
        </condition>
        <print>Você vê um stormtrooper no meio da sala. Ele caminha em sua direção ameaçadoramente.</print>
      </trigger>
-     <item>
-       <name>chave</name>
-     </item>
+    
    </creature>
    <border>
      <direction>sul</direction>
@@ -146,6 +147,9 @@
  </room>
  <room>
      <name>Compactador de lixo</name>
+     <item>
+         <name>escada</name>
+       </item>
      <description>Oh não! Você se encontra no compactador de lixo da Estrela da Morte.</description>
      <creature>
        <name>dianoga</name>
@@ -168,9 +172,7 @@
          </condition>
          <print>Você vê uma dianoga de aparência ameaçadora no compactador de lixo. Felizmente para você, você ainda tem a granada em seu inventário.</print>
        </trigger>
-       <item>
-         <name>escada</name>
-       </item>
+       
    </creature>
    <trigger>
          <type>permanente</type>

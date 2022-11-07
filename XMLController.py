@@ -1,4 +1,4 @@
-from models.Border import Border
+from Model.Border import Border
 
 class Controller:
 
