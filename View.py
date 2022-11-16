@@ -42,6 +42,8 @@ class View:
     if (hasattr(room, "trigger")):
       trigger = Trigger(room.trigger)
       # print(trigger.__str__())
+      if (trigger.print is not None):
+        print(trigger.print.text)
       if (trigger.condition != None):
         for i in trigger.condition:
           # print(i, "eai")
