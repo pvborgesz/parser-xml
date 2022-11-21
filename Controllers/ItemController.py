@@ -39,3 +39,12 @@ class ItemController:
                     player[0].itens.append(itemObj)
                     print("adicionei", itemObj)
                     break
+    def ativarItem(item : Item):
+        for i in player[0].itens:
+          i.__str__()
+        wannaSee = int(input("Deseja ver algum item? (1-Sim / 0- Não): "))
+        if wannaSee == 1:
+            itemIndex = int(input("Digite o índice do item que deseja ver: "))
+            print()
+            print(player[0].itens[itemIndex].actionItem())
+            item.status = True
